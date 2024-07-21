@@ -1,0 +1,16 @@
+.app{
+  // remember to style components that are not in the container div(padding)
+  overflow-x: hidden;
+  .app__container{
+    padding: 0 7.2rem;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+

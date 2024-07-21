@@ -1,0 +1,25 @@
+.floatingImg{
+    position: absolute;
+    width: 14rem;
+    height: 14rem;
+    // border: 1px solid red;
+
+    &__circle{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #F9F9F9;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            // width: 100%;
+            // height: 100%;
+            // object-fit: contain;
+            // border: 1px solid red;
+        }
+    }
+}

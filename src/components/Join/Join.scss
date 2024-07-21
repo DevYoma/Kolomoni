@@ -1,0 +1,41 @@
+.join{
+    margin-top: 3rem;
+    // border: 1px solid red;
+    &__header{
+        p{
+            font-size: 4rem;
+            text-align: center;
+            color: #364338;
+
+            @media screen and (max-width: 500px) {
+                font-size: 2.4rem;
+            }
+        }
+    }
+    
+    &__container{
+        margin-top: 5.6rem;
+        display: flex;
+        gap: 1.7rem;
+        // flex-wrap: wrap;
+        justify-content: space-between;
+        overflow-x: scroll;
+        
+
+        @media screen and (max-width: 500px) {
+            margin-top: 4.0rem;
+        }
+
+        img{
+            // width: 32%;
+            width: 100%;  
+            flex: 1 0 32%;
+
+            @media screen and (max-width: 500px) {
+                // width: ;
+                width: 80%;
+                // height: auto;
+            }
+        }
+    }
+}

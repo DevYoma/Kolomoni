@@ -1,0 +1,54 @@
+.benefits{
+    margin-top: 12rem;
+    padding-left: 7.2rem;
+
+    &__header{
+        // border: 1px solid red;
+        width: fit-content;
+        &Button{
+            background: #012193;
+            color: white;
+            width: 12rem;
+            height: 4rem;
+            font-size: 2rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 3.4rem;
+        }
+
+        &Text{
+            color: #050F32;
+            font-size: 4rem;
+            font-weight: 500;
+        }
+    }
+
+    &__main{
+        margin-top: 5rem;
+        // border: 1px solid black;
+        display: flex;
+        align-items: center;
+        // flex-wrap: wrap;
+
+        &Left{
+            // align-self: start;
+            // border: 1px solid red;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+
+            @media screen and (max-width: 800px) {
+                // grid-template-columns: ;
+            }
+        }
+
+        &Right{
+            // border: 2px solid green;
+            display: flex;
+            // justify-content: flex-end;
+            margin-left: auto;
+        }
+    }
+}

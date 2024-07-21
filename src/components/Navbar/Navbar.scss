@@ -1,0 +1,29 @@
+.navbar{
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 2.4rem 0;
+
+    &__links{
+        display: flex;
+        gap: 2.5rem;
+
+        li{
+            display: flex;
+            align-items: center;
+
+            .navbar__linksIcon{
+                height: 2.4rem;
+                width: 2.4rem;
+                margin-left: 1.2rem;
+            }
+        }
+    }
+
+    &__cta{
+        display: flex;
+        gap: 0.9rem;
+    }
+}

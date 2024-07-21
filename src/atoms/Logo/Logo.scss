@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+
+  span {
+    color: var(--background-color-primary);
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,31 @@
+.features{
+    // border: 1px solid red;
+    margin-top: 6.325rem;
+    
+    &__header{
+        font-size: 4rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    &__subText{
+        font-size: 2rem;
+    }
+
+    &__cards{
+        margin-top: 6rem;
+    }
+
+    &__cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.8rem;
+    }
+
+    &__cardsTwo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.8rem;
+        margin-top: 2rem;
+    }
+}
